@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   text-align: center;
   margin: 0;
@@ -15,6 +19,23 @@ h2, h3, h4, h5, h6, p {
 
 .white-section {
   padding: 3% 15%;
+}
+
+/* Navbar */
+.topnav {
+  position: fixed;
+  width: 100%;
+  background-color: #004C94;
+  overflow: hidden;
+  padding: 15px;
+}
+
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 /* Title Section */
