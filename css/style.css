@@ -72,6 +72,7 @@ h2, h3, h4, h5, h6, p {
   color: white;
   background-color: #E0A13A;
   margin: 5px;
+  font-size: 1.5rem;
 }
 
 .button-small:hover, .button-small:active {
@@ -90,6 +91,14 @@ h2, h3, h4, h5, h6, p {
 }
 
 @media (max-width: 1028px) {
+  .profile-img {
+    width: 50%;
+  }
+
+  .about-text {
+    font-size: 1rem;
+  }
+
   .skills {
     display: block;
   }
