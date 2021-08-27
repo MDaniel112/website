@@ -23,12 +23,14 @@ h2, h3, h4, h5, h6, p {
 .colored-section {
   background-color: #3A90E0;
   color: white;
-  padding: 20vh 15%;
+  padding: 15vh 5vw 5vh;
+  margin-top: 1px;
+  margin-bottom: -2px;
 
 }
 
 .white-section {
-  padding: 20vh 15%;
+  padding: 10vh 5vw;
 }
 
 /* Navbar */
@@ -60,7 +62,7 @@ h2, h3, h4, h5, h6, p {
 }
 
 #title {
-  padding: 7% 15%
+  padding: 10vh 7% 15%
 }
 
 .subtitle {
@@ -108,6 +110,11 @@ h2, h3, h4, h5, h6, p {
   background-color: #E0A13A;
   margin: 5px;
   font-size: 1.5rem;
+  width: 100%;
+}
+
+#projects p{
+  font-size: 2rem;
 }
 
 .button-small:hover, .button-small:active {
